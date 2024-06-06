@@ -30,7 +30,7 @@ const handleSave = () => {
     }, 3000); // 3 saniye sonra uyarıyı gizle
   } else {
     todoStore.setTodo(todo.value);
-    todo.value = ''; // Kaydettikten sonra inputu temizle
+    todo.value = '';
   }
 };
 
@@ -63,7 +63,7 @@ const handleSave = () => {
     </div>
   </div>
 
-  
+
 </template>
 
 <route lang="yaml">
